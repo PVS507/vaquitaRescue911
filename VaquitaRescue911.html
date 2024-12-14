@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Save the Vaquita - Join our mission to protect and proliferate the critically endangered vaquita porpoise.">
+    <title>Save the Vaquita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0077be;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .cta {
+            background: #0077be;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .cta button {
+            background: white;
+            color: #0077be;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .donation-form {
+            text-align: center;
+            margin: 20px;
+        }
+        .donation-form button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .donation-form button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Save the Vaquita</h1>
+        <p>Join us in protecting the world's most endangered marine mammal.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The vaquita is on the brink of extinction. Our mission is to protect this critically endangered species and restore its population in the Gulf of California. Together, we can make a difference.</p>
+    </section>
+
+    <section id="donate">
+        <div class="cta">
+            <h2>Make a Donation</h2>
+            <p>Your contribution can help save the vaquita.</p>
+        </div>
+        <div class="donation-form">
+            <button onclick="donateWithGooglePay()">Donate with Google Pay</button>
+            <button onclick="donateWithPayPal()">Donate with PayPal</button>
+            <button onclick="donateWithCard()">Donate with Credit/Debit Card</button>
+        </div>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Learn more about the vaquita and how you can help. Access our resources, articles, and educational materials to spread awareness.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at <a href="mailto:info@savethevaquita.org">info@savethevaquita.org</a></p>
+        <p>Follow us on social media: <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Save the Vaquita. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function donateWithGooglePay() {
+            alert("Google Pay integration coming soon!");
+        }
+
+        function donateWithPayPal() {
+            window.location.href = "https://www.paypal.com/donate"; // Replace with your PayPal donation link
+        }
+
+        function donateWithCard() {
+            alert("Credit/Debit Card integration coming soon!");
+        }
+    </script>
+</body>
+</html>
